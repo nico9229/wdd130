@@ -21,12 +21,13 @@
     padding: 0;
  }
  aside {
-   width: 150px;
-   margin: 0;
+   width: 20rem;
+   margin: 1rem;
    border: 1px solid steelblue;
-   padding: 2px;
+   padding: 1rem;
    background-color: #5b8b25;
    color: white;
+   text-align: center;
  }
  aside img {
    width: 200px;
