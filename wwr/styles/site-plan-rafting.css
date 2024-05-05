@@ -7,8 +7,8 @@ body {
 :root {
     --primary-color: #C4B264;
     --secondary-color: #1E9696;
-    --accent-color1: #3E505B;
-    --accent-color2: #E1957C;
+    --accent1-color: #3E505B;
+    --accent2-color: #E1957C;
 
     --heading-font: 'Bebas Neue', serif;
     --paragraph-font: 'Scope One',serif;
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
     padding: 20px;
-    background-color: var(--accent-color1);
+    background-color: var(--accent1-color);
 }
 p {
     padding: 25px;
