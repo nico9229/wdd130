@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --first-color:#C4B264;
+    --second-color: #1E9696;
+    --third-color: #3E505B;
+    --fourth-color: #E1957C;
+
+    --nav-background-color: #88e99c;
+    --heading-font: 'Raleway', serif;
+    --paragraph-font: 'Kanit', serif;
+}
+
+body {
+    font-family: var(--heading-font);
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    color: var(--third-color);
+}
+.hero {
+    position: relative;
+}
+
+
+.hero h1 {
+    position: absolute;
+    background: rgba(28, 27, 27, 0.864);
+    width:100%;
+}
+
+
+.hero article {
+    background-color:rgba(60, 145, 220, 0.487) ;
+    position:absolute;
+    width:750px;
+    margin:150px;
+    top:100px;
+    padding:20px;
+    border:100px;
+}
+
+.hero article img {
+    width:150px;
+    left: 550px;
+    top: 7px;
+}
+article p {
+    color: white;
+    width: 450px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+section img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+div h1{
+    position: absolute;
+    text-align: center;    
+    top:20px;
+}
+
