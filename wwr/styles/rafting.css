@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     width:150px;
     left: 550px;
     top: 7px;
+    float:right;
 }
 article p {
     color: white;
