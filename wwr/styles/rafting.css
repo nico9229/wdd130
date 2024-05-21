@@ -21,6 +21,39 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     color: var(--third-color);
 }
+/*----------------------------------------*/
+header {  /*diseño del header*/
+    display:grid;
+  /*  grid-template-columns: center;/*/
+    align-items: center;
+}
+nav  {
+    background-color: var(--second-color); /*background design*/
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 10px;
+
+}
+.button a { /*button design*/
+    display: block;
+    padding: 15px;
+    margin: 1px;
+    border: 2px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.button {
+    display:flex;
+    justify-content: center;
+}
+header img { /*logo design*/
+    position: absolute;
+    left: 640px;
+    width: 90px;
+}
+
+/*---------------------------------------------*/
+/*div design*/
 .hero {
     position: relative;
 }
@@ -54,25 +87,93 @@ article p {
     width: 450px;
 }
 
-.hero img {
+.hero img { /*picture main*/
     display: block;
-    width: 100%;
+    width: 109%;
     height: auto;
+    margin-bottom: 10px;
 }
-section img {
-    display: block;
-    width: 40%;
-    height: auto;
-    margin-bottom: 20px;
-
-}
-div h1{
+div h1{  /*title*/
     position: absolute;
     text-align: center;    
     top:20px;
 }
-nav  {
-    background-color: var(--second-color);
+/*-----------------------------------------------*/
+/*section 1 desing*/
+.history { 
+    display: grid;
+    align-items: center;
+
+}
+.history h2 {
+    display:flex;
+    justify-content: center;
+}
+.history {  /*backgroun history design*/
+    background-color: #a3efd1;
+    margin-bottom: 10px;
+    width:109%;
+}
+.central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history img {
+    justify-content: center;
+    width: 30%;
+}
+.right .left {
+    flex: 1
+}
+.history img {
+    display: block;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border: 20px;
+    margin: 20px;
+}
+/*---------------------------------------------*/
+/*section 2 desing*/
+.history2 {
+    display:grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(5, 1fr);
+}
+.history2 h2 {
+
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+.history2 img {
+    grid-row: 2;
+    width: 150px;
+    height: auto;
+}
+
+/*figcaption desing*/
+
+.history2 figcaption {
+    background-color: #3E505B;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+}
+
+/*desing footer*/
+footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sociallinks {
+    display:flex;
+    flex-direction: row-reverse;
+}
+.copy {
+    position:absolute;
+    margin-right: auto;
 }
 nav a {
     color: var(--third-color);
