@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Sedan+SC&family=Teko:wght@300..700&display=swap');
+:root {
+    --header: Teko, serif;
+    --form: Chakra Petch, serif;
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--header);
+    font-size: 1.2rem; 
+    background: #fff;
+}
+header {
+    margin:0;
+    width:650px ;
+}
+h1 {
+    margin:1rem;
+    font-size: 1.5rem;
+    color: rgb(77, 77, 222);
+    text-align:center;
+}
+form {
+    display: grid;
+    width: 700px;
+    margin: 0 auto;
+    padding:1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:0.6rem;
+    background-color:#9c9696 ;
+}
+fieldset {
+    display:grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+legend {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: rgb(103, 15, 196);
+    font-weight: bold;
+    padding: .5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--form);
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: .5rem; 
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] { 
+    vertical-align: bottom ; 
+    width: 22px;
+    height: 22px;
+}
+
+button {
+    margin: 1rem;  
+    background-color: rgb(170, 204, 117);
+    color:black;
+    border:3px solid #292121;
+    border-radius: 4.5rem;
+    padding:0.50rem; 
+    font-size: 1.3rem; 
+}
+button:hover { 
+    background-color: aqua;
+}
+footer {
+    margin: 10rem;
+    width: 900px; 
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(89, 145, 241, 0.985);
+    border-top: 2px solid #ccc;
+}
+.form-item {
+    display:grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;    
+}
