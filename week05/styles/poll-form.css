@@ -10,14 +10,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, header footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 body {
+
     font-family: var(--header);
     font-size: 1.2rem; 
     background: #fff;
+
 }
 header {
+
     margin:0;
     width:650px ;
+
 }
 h1 {
     margin:1rem;
@@ -80,12 +91,12 @@ button:hover {
     background-color: aqua;
 }
 footer {
-    margin: 10rem;
+    margin: 3rem;
     width: 900px; 
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: rgba(89, 145, 241, 0.985);
-    border-top: 2px solid #ccc;
+    border-top: 3px solid #7e7b7b;
 }
 .form-item {
     display:grid;
