@@ -198,7 +198,7 @@ nav a {
     color: var(--third-color);
 }
 /*----------------form-------------------------*/
-form {
+.us1 {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -334,4 +334,46 @@ td {
     background-color: #333;
     margin: 70px;
     margin-bottom: 150px;
+}
+/*------------------------Home Page*/
+span {
+    color:rgb(199, 104, 104);
+    text-shadow: 1px 1px 1px black;
+}
+.offerh2 {
+    position: relative;
+    width:100%;
+    margin-bottom: 50px;
+}
+/*--------------------------home table*/
+.home {
+    display:flex;
+    flex-direction: column;
+    background:linear-gradient(#22afe7, #fafcfd);
+}
+
+.IFH {
+    width: 50%;
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+/*-------------------------offer desig*/
+.offer1 {
+    display:grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 10px;
+    gap: 20px;
+    background-color: #22afe7;
+}
+.offer1 img {
+    grid-row: 2;
+    width: 220px;
+    height: auto;
+}
+.offer1 figcaption {
+    background-color: #3E505B;
+    padding: 10px;
+    color: white;
+    margin: 10px;
 }
